@@ -21,7 +21,9 @@ public class MainClass {
 
                 }
                 else if(ch==2){
-
+                    System.out.println("Enter the amount to withdraw");
+                    double withdrawAmount=in.nextDouble();
+                    op.withdrawAmount(withdrawAmount);
                 }
                 else if(ch==3){
                     System.out.println("Enter Amount to Deposit :");
