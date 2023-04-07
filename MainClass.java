@@ -32,6 +32,7 @@ public class MainClass {
 
                 }
                 else if(ch==4){
+                    op.viewMiniStatement();
 
                 }
                 else if(ch==5){
